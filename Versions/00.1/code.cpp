@@ -1,28 +1,28 @@
 int trigPin = 13; // pino do trigger do sensor ultrassônico
 int echoPin = 12; // pino do echo do sensor ultrassônico
 int vibPin = 6; // pino do sensor de vibração
-int vib5 = 400; // 5cm vibra em uma frequência de 200
-int vib10 = 190;
-int vib15 = 180; // distância em cm para a vibração máxima
-int vib20 = 170;
-int vib25 = 160;
-int vib30 = 150;
-int vib35 = 140;
-int vib40 = 130;
-int vib45 = 120;
-int vib50 = 110;
-int vib55 = 100;
-int vib60 = 90;
-int vib65 = 80;
-int vib70 = 70;
-int vib75 = 60;
-int vib80 = 50;
+int vib5 = 400; // 5cm vibra em uma frequência de 400
+int vib10 = 390;// 10cm vibra em uma frequência de 390
+int vib15 = 380; // 15cm vibra em uma frequência de 380
+int vib20 = 370;// 20cm vibra em uma frequência de 370
+int vib25 = 360;// 25cm vibra em uma frequência de 360
+int vib30 = 350;// 30cm vibra em uma frequência de 350
+int vib35 = 340;// 35cm vibra em uma frequência de 340
+int vib40 = 330;// 40cm vibra em uma frequência de 330
+int vib45 = 320;// 45cm vibra em uma frequência de 320
+int vib50 = 310;// 5cm vibra em uma frequência de 310
+int vib55 = 200;// 55cm vibra em uma frequência de 200
+int vib60 = 290;// 60cm vibra em uma frequência de 290
+int vib65 = 280;// 65cm vibra em uma frequência de 280
+int vib70 = 270;// 70cm vibra em uma frequência de 270
+int vib75 = 260;// 75cm vibra em uma frequência de 260
+int vib80 = 250;// 80cm vibra em uma frequência de 250
 
 
 void setup() {
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
-  pinMode(vibPin, OUTPUT);
+  pinMode(trigPin, OUTPUT); //pino Trig do Sensor Ultrassônico é saída
+  pinMode(echoPin, INPUT); //pino Echo do Sensor Ultrassônico é Entrada
+  pinMode(vibPin, OUTPUT); //Motor de Vibração é Saída
   Serial.begin(9600);
 }
 
